@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Insurance Suite">
+
+<test name="Test Base">
+    <classes>
+        <class name="test.TestBase" ></class>  
+    </classes>
+</test>
+
+<test name="Login Test">
+    <classes>
+        <class name="test.TestLogin" ></class>  
+    </classes>
+</test>
+</suite>

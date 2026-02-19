@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Insurance Suite" duration-ms="295089" started-at="2015-02-26T15:01:27Z" finished-at="2015-02-26T15:06:23Z">
+    <groups>
+    </groups>
+    <test name="Test Base" duration-ms="4" started-at="2015-02-26T15:01:27Z" finished-at="2015-02-26T15:01:27Z">
+    </test> <!-- Test Base -->
+    <test name="Login Test" duration-ms="295063" started-at="2015-02-26T15:01:28Z" finished-at="2015-02-26T15:06:23Z">
+      <class name="test.TestLogin">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:test.TestLogin@18aea9e]" name="intialize" is-config="true" duration-ms="7357" started-at="2015-02-26T20:31:20Z" finished-at="2015-02-26T20:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="isSkipped()[pri:0, instance:test.TestLogin@18aea9e]" name="isSkipped" is-config="true" duration-ms="7" started-at="2015-02-26T20:31:28Z" finished-at="2015-02-26T20:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkipped -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestLogin@18aea9e]" name="testLogin" duration-ms="8068" started-at="2015-02-26T20:31:28Z" data-provider="getData" finished-at="2015-02-26T20:31:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestLogin@18aea9e]" name="testLogin" duration-ms="36146" started-at="2015-02-26T20:31:36Z" data-provider="getData" finished-at="2015-02-26T20:32:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jhdfsdh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hfbjhdfd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestLogin@18aea9e]" name="testLogin" duration-ms="35946" started-at="2015-02-26T20:32:12Z" data-provider="getData" finished-at="2015-02-26T20:32:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dbfdsfbgs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bdhfbdf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestLogin@18aea9e]" name="testLogin" duration-ms="35722" started-at="2015-02-26T20:32:48Z" data-provider="getData" finished-at="2015-02-26T20:33:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fghsdfdsjf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fbsdhfgbd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestLogin@18aea9e]" name="testLogin" duration-ms="35936" started-at="2015-02-26T20:33:23Z" data-provider="getData" finished-at="2015-02-26T20:33:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jbhjgdfgg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BDFJGB]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestLogin@18aea9e]" name="testLogin" duration-ms="36000" started-at="2015-02-26T20:33:59Z" data-provider="getData" finished-at="2015-02-26T20:34:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HGTEUIT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DGFWEYT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestLogin@18aea9e]" name="testLogin" duration-ms="35754" started-at="2015-02-26T20:34:35Z" data-provider="getData" finished-at="2015-02-26T20:35:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HFGHGFG]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BDHJGH]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestLogin@18aea9e]" name="testLogin" duration-ms="35563" started-at="2015-02-26T20:35:11Z" data-provider="getData" finished-at="2015-02-26T20:35:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DSAD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DGFWEYT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestLogin@18aea9e]" name="testLogin" duration-ms="35911" started-at="2015-02-26T20:35:47Z" data-provider="getData" finished-at="2015-02-26T20:36:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[XDADAD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DAD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- test.TestLogin -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Insurance Suite -->
+</testng-results>

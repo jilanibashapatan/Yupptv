@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Insurance_Suite">
+              <span class="suite-name border-passed">Insurance Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Insurance_Suite">
+                    <span>E:\Hari\DataDrivenFramework\datadriven_Framework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Insurance_Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Insurance_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Insurance_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Insurance_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Insurance_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Insurance_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Insurance_Suite" class="hide-methods passed suite-Insurance_Suite"> (hide)</a> <!-- hide-methods passed suite-Insurance_Suite -->
+                      <a href="#" panel-name="suite-Insurance_Suite" class="show-methods passed suite-Insurance_Suite"> (show)</a> <!-- show-methods passed suite-Insurance_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Insurance_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Insurance_Suite" title="test.TestLogin" hash-for-method="testLogin(DSAD, DGFWEYT, true)">testLogin(DSAD, DGFWEYT, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Insurance_Suite" title="test.TestLogin" hash-for-method="testLogin(fghsdfdsjf, fbsdhfgbd, true)">testLogin(fghsdfdsjf, fbsdhfgbd, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Insurance_Suite" title="test.TestLogin" hash-for-method="testLogin(HGTEUIT, DGFWEYT, false)">testLogin(HGTEUIT, DGFWEYT, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Insurance_Suite" title="test.TestLogin" hash-for-method="testLogin(HFGHGFG, BDHJGH, true)">testLogin(HFGHGFG, BDHJGH, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Insurance_Suite" title="test.TestLogin" hash-for-method="testLogin(jhdfsdh, hfbjhdfd, false)">testLogin(jhdfsdh, hfbjhdfd, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Insurance_Suite" title="test.TestLogin" hash-for-method="testLogin(admin, test, true)">testLogin(admin, test, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Insurance_Suite" title="test.TestLogin" hash-for-method="testLogin(dbfdsfbgs, bdhfbdf, false)">testLogin(dbfdsfbgs, bdhfbdf, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Insurance_Suite" title="test.TestLogin" hash-for-method="testLogin(XDADAD, DAD, false)">testLogin(XDADAD, DAD, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Insurance_Suite" title="test.TestLogin" hash-for-method="testLogin(jbhjgdfgg, BDFJGB, false)">testLogin(jbhjgdfgg, BDFJGB, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Insurance_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Insurance_Suite" class="panel Insurance_Suite">
+          <div class="suite-Insurance_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TestLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(DSAD, DGFWEYT, true)">
+                  </a> <!-- testLogin(DSAD, DGFWEYT, true) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(DSAD, DGFWEYT, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(fghsdfdsjf, fbsdhfgbd, true)">
+                  </a> <!-- testLogin(fghsdfdsjf, fbsdhfgbd, true) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(fghsdfdsjf, fbsdhfgbd, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(HGTEUIT, DGFWEYT, false)">
+                  </a> <!-- testLogin(HGTEUIT, DGFWEYT, false) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(HGTEUIT, DGFWEYT, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(HFGHGFG, BDHJGH, true)">
+                  </a> <!-- testLogin(HFGHGFG, BDHJGH, true) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(HFGHGFG, BDHJGH, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(jhdfsdh, hfbjhdfd, false)">
+                  </a> <!-- testLogin(jhdfsdh, hfbjhdfd, false) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(jhdfsdh, hfbjhdfd, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(admin, test, true)">
+                  </a> <!-- testLogin(admin, test, true) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(admin, test, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(dbfdsfbgs, bdhfbdf, false)">
+                  </a> <!-- testLogin(dbfdsfbgs, bdhfbdf, false) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(dbfdsfbgs, bdhfbdf, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(XDADAD, DAD, false)">
+                  </a> <!-- testLogin(XDADAD, DAD, false) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(XDADAD, DAD, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(jbhjgdfgg, BDFJGB, false)">
+                  </a> <!-- testLogin(jbhjgdfgg, BDFJGB, false) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(jbhjgdfgg, BDFJGB, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Insurance_Suite-class-passed -->
+        </div> <!-- panel Insurance_Suite -->
+        <div panel-name="test-xml-Insurance_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Hari\DataDrivenFramework\datadriven_Framework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Insurance Suite&quot;&gt;
+  &lt;test name=&quot;Test Base&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.TestBase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Base --&gt;
+  &lt;test name=&quot;Login Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.TestLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+&lt;/suite&gt; &lt;!-- Insurance Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Insurance_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Insurance Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test Base (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Insurance_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Insurance Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Insurance_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Insurance Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Insurance_Suite');
+function tableData_Insurance_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testLogin')
+data.setCell(0, 2, 'test.TestLogin')
+data.setCell(0, 3, 36146);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLogin')
+data.setCell(1, 2, 'test.TestLogin')
+data.setCell(1, 3, 36000);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testLogin')
+data.setCell(2, 2, 'test.TestLogin')
+data.setCell(2, 3, 35946);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testLogin')
+data.setCell(3, 2, 'test.TestLogin')
+data.setCell(3, 3, 35936);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLogin')
+data.setCell(4, 2, 'test.TestLogin')
+data.setCell(4, 3, 35911);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testLogin')
+data.setCell(5, 2, 'test.TestLogin')
+data.setCell(5, 3, 35754);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testLogin')
+data.setCell(6, 2, 'test.TestLogin')
+data.setCell(6, 3, 35722);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testLogin')
+data.setCell(7, 2, 'test.TestLogin')
+data.setCell(7, 3, 35563);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testLogin')
+data.setCell(8, 2, 'test.TestLogin')
+data.setCell(8, 3, 8068);
+window.suiteTableData['Insurance_Suite']= { tableData: data, tableDiv: 'times-div-Insurance_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Insurance_Suite">
+              </div> <!-- times-div-Insurance_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Insurance_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Insurance Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Insurance_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Insurance_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TestLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">intialize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">isSkipped</span>
+                <span class="method-start">7383 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testLogin(admin, test, true)</span>
+                <span class="method-start">7399 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(jhdfsdh, hfbjhdfd, false)</span>
+                <span class="method-start">15467 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(dbfdsfbgs, bdhfbdf, false)</span>
+                <span class="method-start">51613 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(fghsdfdsjf, fbsdhfgbd, true)</span>
+                <span class="method-start">87559 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(jbhjgdfgg, BDFJGB, false)</span>
+                <span class="method-start">123281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(HGTEUIT, DGFWEYT, false)</span>
+                <span class="method-start">159217 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(HFGHGFG, BDHJGH, true)</span>
+                <span class="method-start">195217 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(DSAD, DGFWEYT, true)</span>
+                <span class="method-start">230971 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(XDADAD, DAD, false)</span>
+                <span class="method-start">266534 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
